@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --bg-color: hsl(47, 89%, 63%);
+  --card-color: hsl(0, 0%, 100%);
+  --con2-color: hsl(0, 0%, 42%);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500, 800;
+}
+.container {
+  width: 390px;
+  height: 500px;
+  background-color: var(--card-color);
+  box-shadow: 8px 8px 1px black;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 190px;
+  margin-bottom: 190px;
+  margin-left: 710px;
+  margin-right: 710px;
+  padding: 0px;
+}
+.img-container {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+img {
+  border-radius: 10px;
+}
+#button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 2.5px;
+  margin-left: 25px;
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.content {
+  margin: 0px;
+  font-size: bold;
+}
+#content-1 {
+  font-size: small;
+  margin-top: 2.5px;
+  margin-left: 25px;
+  padding-top: 5px;
+}
+h2 {
+  margin-top: 2.5px;
+  margin-left: 25px;
+  margin-bottom: 2.5px;
+  padding-top: 5px;
+}
+#content-2 {
+  margin-top: 2.5px;
+  margin-left: 25px;
+  padding-top: 5px;
+  font-size: bold;
+  color: var(--con2-color);
+}
+#img2 {
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.name {
+  margin-right: 10px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+h2:hover {
+  cursor: pointer;
+  color: var(--bg-color);
+}
